@@ -3,7 +3,7 @@ class PagesController < ApplicationController
 	
 	end
 	def home
-	
+		@article = Article.all
 	end
 
 end
